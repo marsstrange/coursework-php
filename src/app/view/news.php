@@ -17,7 +17,7 @@ require("../model/langSetter.php");
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Для красивого отображения на мобильных устройствах-->
     <title>News</title> <!-- Заголовок страницы -->
-    <link rel="stylesheet" href="<?php echo $finalTheme ?>">
+    <link rel="stylesheet" href="<?php echo $path . $finalTheme ?>">
     <link rel="icon" href="res/Rombek.ico" type="image/x-icon">
 </head>
 
@@ -32,22 +32,22 @@ require("../model/langSetter.php");
 		                <div class="bar2"></div>
 		                <div class="bar3"></div>
 	            	</div>
-            		<a href="Psybolord.html"><img src="res/Rombek.svg" width="60px"></a>
+            		<a href="Psybolord.php"><img src="res/Rombek.svg" width="60px"></a>
         		</div>
-		        <div class="menu">
-		            <div class="el"><mark> <?php echo $lang['news']; ?></mark></div>
-	                <div class="el"><a href="albums.html"><?php echo $lang['music']; ?></a></div>
-	                <div class="el"><a href="videos.html"><?php echo $lang['videos']; ?></a></div>
-	                <div class="el"><a href="store.html"><?php echo $lang['store']; ?></a></div>
-		        </div>
-		        <div class="menu">
-		        	<div class="el"><a href="news.php?lang=en"><?php echo $lang['en']; ?></a></div>
-	            	<div class="el"><a href="news.php?lang=ru"><?php echo $lang['ru']; ?></a></div>
-	            </div>
-	            <div class="menu">
-		        	<div class="el"><a href="news.php?theme=dark"><?php echo $lang['dark']; ?></a></div>
-		        	<div class="el"><a href="news.php?theme=light"><?php echo $lang['light']; ?></a></div>
-	            </div>
+                <div class="menu">
+                    <div class="el"><mark> <?php echo $lang['news']; ?></mark></div>
+                    <div class="el"><a href="albums.php"><?php echo $lang['music']; ?></a></div>
+                    <div class="el"><a href="videos.php"><?php echo $lang['videos']; ?></a></div>
+                    <div class="el"><a href="store.php"><?php echo $lang['store']; ?></a></div>
+                </div>
+                <div class="menu">
+                    <div class="el"><a href="news.php?lang=en"><?php echo $lang['en']; ?></a></div>
+                    <div class="el"><a href="news.php?lang=ru"><?php echo $lang['ru']; ?></a></div>
+                </div>
+                <div class="menu">
+                    <div class="el"><a href="news.php?theme=dark"><?php echo $lang['dark']; ?></a></div>
+                    <div class="el"><a href="news.php?theme=light"><?php echo $lang['light']; ?></a></div>
+                </div>
                 <div class="menu">
                     <div class="el"><a><?php echo $username; ?></a></div>
                 </div>
@@ -117,33 +117,7 @@ require("../model/langSetter.php");
 </html>
 
 	<script src="postMaker.js"></script> <!-- для выдачи карточек -->
-	
-  <script> /*для header*/
-        function button_clicked(x) {
-            x.classList.toggle("change");
-            if (document.querySelector(".header .menu").style.getPropertyValue("display") == "flex") {
-                document.querySelector(".header .menu").style.display = "none";
-            } 
-            else {
-                document.querySelector(".header .menu").style.display = "flex";
-            }
-        }
-        document.getElementsByTagName("BODY")[0].onresize = function() {resize_check()};
-        function resize_check(){
-            // window.getComputedStyle(document.getElementById("list")).style.getPropertyValue("flex-direction")
-            console.log(document.querySelector(".symbol").classList.contains("change"));
-            if (window.innerWidth >= 700) {
-                if(document.querySelector(".symbol").classList.contains("change")){
-                    document.querySelector(".symbol").classList.remove("change");
-                }
-                document.querySelector(".header .menu").style.display = "flex";
-            }
-            else if(!document.querySelector(".symbol").classList.contains("change")){
-                document.querySelector(".header .menu").style.display = "none";
-            }
-        }
-
-    </script>
+    <script src="menuAnimation.js"></script> <!--для header-->
   
 </body>
 </html>

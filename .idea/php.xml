@@ -11,11 +11,11 @@
   </component>
   <component name="PhpIncludePathManager">
     <include_path>
-      <path value="$PROJECT_DIR$/src/vendor/composer" />
-      <path value="$PROJECT_DIR$/src/vendor/fakerphp/faker" />
-      <path value="$PROJECT_DIR$/src/vendor/amenadiel/jpgraph-4.4.1" />
       <path value="$PROJECT_DIR$/src/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/src/vendor/composer" />
+      <path value="$PROJECT_DIR$/src/vendor/amenadiel/jpgraph-4.4.1" />
       <path value="$PROJECT_DIR$/src/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/src/vendor/fakerphp/faker" />
       <path value="$PROJECT_DIR$/src/vendor/amenadiel/jpgraph" />
     </include_path>
   </component>

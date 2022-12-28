@@ -28,49 +28,46 @@ CREATE TABLE IF NOT EXISTS posts (
 ALTER TABLE posts DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
 
 INSERT INTO posts (title, title_rus, p_date, pic)
-SELECT * FROM (SELECT 'Black Friday bundle', 'Бандл на Черную пятницу', '18.11.21', 'news1.jpg') AS tmp
-WHERE NOT EXISTS (
-    SELECT title FROM posts WHERE title = 'Black Friday bundle'
-) LIMIT 1;
-
-
-INSERT INTO posts (title, title_rus, p_date, pic)
-SELECT * FROM (SELECT 'Psybolord at the Gradient', 'Psybolord на Градиенте', '04.11.21', 'news2.jpg') AS tmp
-WHERE NOT EXISTS (
-    SELECT title FROM posts WHERE title = 'Psybolord at the Gradient'
-) LIMIT 1;
-
-INSERT INTO posts (title, title_rus, p_date, pic)
-SELECT * FROM (SELECT 'Psybolord at the Electrofest', 'Psybolord на Электрофесте', '18.10.21', 'Electro1.png') AS tmp
-WHERE NOT EXISTS (
-    SELECT title FROM posts WHERE title = 'Psybolord at the Electrofest'
-) LIMIT 1;
-
-
-INSERT INTO posts (title, title_rus, p_date, pic)
-SELECT * FROM (SELECT 'Psybolord at the RETRONIGHT', 'Psybolord на РетровейвНайт', '17.10.21', 'news4.jpg') AS tmp
-WHERE NOT EXISTS (
-    SELECT title FROM posts WHERE title = 'Psybolord at the RETRONIGHT'
-) LIMIT 1;
-
-INSERT INTO posts (title, title_rus, p_date, pic)
-SELECT * FROM (SELECT 'Psybolord at the Hotel fest', 'Psybolord на фестивале Отель', '23.08.21', 'news5.jpg') AS tmp
-WHERE NOT EXISTS (
-    SELECT title FROM posts WHERE title = 'Psybolord at the Hotel fest'
-) LIMIT 1;
-
-
-INSERT INTO posts (title, title_rus, p_date, pic)
-SELECT * FROM (SELECT '5 years on stage', '5 лет на сцене', '06.08.21', 'news6.jpg') AS tmp
-WHERE NOT EXISTS (
-    SELECT title FROM posts WHERE title = '5 years on stage'
-) LIMIT 1;
-
-INSERT INTO posts (title, title_rus, p_date, pic)
 SELECT * FROM (SELECT 'Sirin vinyl is already in stores', 'Винил Sirin уже в продаже', '31.07.21', 'news7.jpg') AS tmp
 WHERE NOT EXISTS (
     SELECT title FROM posts WHERE title = 'Sirin vinyl is already in stores'
 ) LIMIT 1;
+
+INSERT INTO posts (title, title_rus, p_date, pic)
+SELECT * FROM (SELECT '5 years on stage', '5 лет на сцене', '06.08.21', 'news6.jpg') AS tmp
+WHERE NOT EXISTS (
+        SELECT title FROM posts WHERE title = '5 years on stage'
+    ) LIMIT 1;
+
+INSERT INTO posts (title, title_rus, p_date, pic)
+SELECT * FROM (SELECT 'Psybolord at the Hotel fest', 'Psybolord на фестивале Отель', '23.08.21', 'news5.jpg') AS tmp
+WHERE NOT EXISTS (
+        SELECT title FROM posts WHERE title = 'Psybolord at the Hotel fest'
+    ) LIMIT 1;
+
+INSERT INTO posts (title, title_rus, p_date, pic)
+SELECT * FROM (SELECT 'Psybolord at the RETRONIGHT', 'Psybolord на РетровейвНайт', '17.10.21', 'news4.jpg') AS tmp
+WHERE NOT EXISTS (
+        SELECT title FROM posts WHERE title = 'Psybolord at the RETRONIGHT'
+    ) LIMIT 1;
+
+INSERT INTO posts (title, title_rus, p_date, pic)
+SELECT * FROM (SELECT 'Psybolord at the Electrofest', 'Psybolord на Электрофесте', '18.10.21', 'Electro1.png') AS tmp
+WHERE NOT EXISTS (
+        SELECT title FROM posts WHERE title = 'Psybolord at the Electrofest'
+    ) LIMIT 1;
+
+INSERT INTO posts (title, title_rus, p_date, pic)
+SELECT * FROM (SELECT 'Psybolord at the Gradient', 'Psybolord на Градиенте', '04.11.21', 'news2.jpg') AS tmp
+WHERE NOT EXISTS (
+        SELECT title FROM posts WHERE title = 'Psybolord at the Gradient'
+    ) LIMIT 1;
+
+INSERT INTO posts (title, title_rus, p_date, pic)
+SELECT * FROM (SELECT 'Black Friday bundle', 'Бандл на Черную пятницу', '18.11.21', 'news1.jpg') AS tmp
+WHERE NOT EXISTS (
+        SELECT title FROM posts WHERE title = 'Black Friday bundle'
+    ) LIMIT 1;
 
 
 /*INSERT INTO posts (title, p_date, pic)

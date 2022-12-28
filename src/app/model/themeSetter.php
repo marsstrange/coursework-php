@@ -21,7 +21,8 @@ else {
 }
 
 $finalTheme = addslashes($_COOKIE['currTheme']);
-$finalTheme = "../view/" . $finalTheme .".css";
+$path = "../view/";
+$finalTheme = $finalTheme .".css";
 
 $username = $_COOKIE['username'];
 

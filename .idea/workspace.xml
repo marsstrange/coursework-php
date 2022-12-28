@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="173d9bb1-6f8b-444f-89b1-4bf3801626b1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/app/view/Psybolord.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/view/albums.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/view/getFooter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/view/main_dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/view/main_light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/view/menuAnimation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/view/res/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/view/res/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/view/res/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/view/res/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/view/res/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/view/res/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/view/res/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/view/res/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/view/res/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/view/res/Background.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/view/res/Background1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/view/res/Background2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/view/res/end.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/view/res/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/view/res/main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/view/res/main1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/view/res/princess.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/view/res/psybo_alb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/view/res/rise1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/view/res/rise2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/view/res/sirin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/view/res/sirin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/view/store.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/view/storeImageHandler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/view/store_dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/view/store_light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/view/videos.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/.bowerrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/Vagrantfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/assets/AppAsset.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/codeception.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/commands/HelloController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/config/__autocomplete.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/config/console.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/config/db.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/config/params.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/config/test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/config/test_db.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/config/web.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/controllers/SiteController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/mail/layouts/html.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/mail/layouts/text.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/models/ContactForm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/models/LoginForm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/models/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/requirements.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/runtime/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/tests/_bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/tests/_data/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/tests/_output/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/tests/_support/AcceptanceTester.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/tests/_support/FunctionalTester.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/tests/_support/UnitTester.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/tests/acceptance.suite.yml.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/tests/acceptance/AboutCest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/tests/acceptance/ContactCest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/tests/acceptance/HomeCest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/tests/acceptance/LoginCest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/tests/acceptance/_bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/tests/bin/yii" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/tests/bin/yii.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/tests/functional.suite.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/tests/functional/ContactFormCest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/tests/functional/LoginFormCest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/tests/functional/_bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/tests/unit.suite.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/tests/unit/_bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/tests/unit/models/ContactFormTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/tests/unit/models/LoginFormTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/tests/unit/models/UserTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/tests/unit/widgets/AlertTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/vagrant/config/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/vagrant/config/vagrant-local.example.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/vagrant/nginx/app.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/vagrant/nginx/log/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/vagrant/provision/always-as-root.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/vagrant/provision/once-as-root.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/vagrant/provision/once-as-vagrant.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/vagrant/provision/provision.awk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/views/layouts/main.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/views/site/about.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/views/site/contact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/views/site/error.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/views/site/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/views/site/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/web/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/web/assets/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/web/css/site.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/web/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/web/index-test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/web/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/web/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/widgets/Alert.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/yii" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/yii.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Coursework.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/nginx/default.conf" beforeDir="false" afterPath="$PROJECT_DIR$/conf/nginx/default.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/controller/postController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/controller/postController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/model/databases/init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/model/databases/init.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/model/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/model/newsHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/model/themeSetter.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/model/themeSetter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/view/news.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/view/news.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/auth_form_script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/auth_form_script.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/src/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/src/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/src/vendor/composer" />
+      <path value="$PROJECT_DIR$/src/vendor/amenadiel/jpgraph-4.4.1" />
+      <path value="$PROJECT_DIR$/src/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/src/vendor/fakerphp/faker" />
+      <path value="$PROJECT_DIR$/src/vendor/amenadiel/jpgraph" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="2IjSKevQCO3Vdtv4DpTF7JypoiW" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Study/3_year/5_semester/Разработка серверных частей ИР/Coursework/coursework-php",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="173d9bb1-6f8b-444f-89b1-4bf3801626b1" name="Changes" comment="" />
+      <created>1670693436356</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670693436356</updated>
+      <workItem from="1670693437540" duration="1158000" />
+      <workItem from="1670708840400" duration="3182000" />
+      <workItem from="1670754052142" duration="9507000" />
+      <workItem from="1671024468703" duration="40000" />
+      <workItem from="1671520271454" duration="15961000" />
+      <workItem from="1671542663699" duration="4798000" />
+      <workItem from="1671607967378" duration="2786000" />
+      <workItem from="1671695641880" duration="1343000" />
+      <workItem from="1672238477622" duration="600000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

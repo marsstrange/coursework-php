@@ -10,7 +10,7 @@ header('Access-Control-Allow-Headers: *');
 header('Access-Control-Allow-Methods: *');
 
 header('Content-type: application/json'); //указываем, что результат запроса возвращается в формате JSON
-require '../model/functions.php';
+require '../model/newsHandler.php';
 function postEndpoint(post $postExample){
 	$mysqli = new mysqli("database", "user", "password", "userDB");
 	$params = explode('/', $postExample->q);
